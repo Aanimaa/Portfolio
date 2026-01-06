@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
+import arch from "../../Assets/TechIcons/arch_logo-1.png";
+import vercel from "../../Assets/TechIcons/Vercel_favicon.svg";
 import vsCode from "../../Assets/TechIcons/vscode.svg";
 import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 
@@ -9,12 +9,12 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={macOs} alt="macOs" className="tech-icon-images" />
-        <div className="tech-icons-text">Mac Os</div>
+        <img src={arch} alt="archLinux" className="tech-icon-images" />
+        <div className="tech-icons-text">ArchLinux</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={chrome} alt="Chrome" className="tech-icon-images" />
-        <div className="tech-icons-text">Google Chrome</div>
+        <img src={vercel} alt="Vercel" className="tech-icon-images" />
+        <div className="tech-icons-text">Vercel</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
